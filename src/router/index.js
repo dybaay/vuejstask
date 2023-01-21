@@ -5,6 +5,10 @@ import Preview from '../views/Preview.vue'
 
 const routes = [
     {
+        path: '/',
+        redirect: 'my-recordings',
+    },
+    {
         path: '/home',
         name: 'Home',
         component: Home
