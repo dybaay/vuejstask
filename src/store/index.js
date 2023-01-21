@@ -5,6 +5,7 @@ const store = createStore({
         user: {
             'name': 'Cody Fisher',
             'email': 'codyfisher@gmail.com',
+            'avatar': 'https://media.licdn.com/dms/image/D4D35AQEnH3pFaKE_Bw/profile-framedphoto-shrink_400_400/0/1672698826354?e=1674849600&v=beta&t=Fi5Q3Kozqi7-vBEDbs8_0KC6J4lpGuyU1IqjSzZ1xO8'
         },
         recordings: [
             {

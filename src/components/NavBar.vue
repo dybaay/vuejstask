@@ -10,7 +10,7 @@ export default {
 
 <template>
     <header class="header">
-        <div class="logo"><img src="src/assets/images/logo.png" alt="logo" class="logoImg"></div>
+        <div class="logo"><img src="../assets/images/logo.png" alt="logo" class="logoImg"></div>
         <nav class="nav-container">
             <ul class="nav-items">
                 <li><a href="#">projects</a></li>
@@ -24,7 +24,7 @@ export default {
         <div class="profile">
             <span class="help">help</span>
             <div class="profileContainer">
-                <img src="src/assets/images/pass.jpeg" class="profileImg" alt="profile">
+                <img :src="user.avatar" class="profileImg" alt="profile">
                 <div class="profileDetail">
                     <span class="profileName">{{ user.name}}</span>
                     <span class="profileEmail">{{ user.email }}</span>
